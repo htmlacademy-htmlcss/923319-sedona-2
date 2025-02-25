@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Наталья Гусева](https://up.htmlacademy.ru/htmlcss-individual/2/user/923319).
-* Наставник: `Неизвестно`.
+* Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
 
 ---
 

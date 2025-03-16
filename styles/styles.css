@@ -81,7 +81,7 @@ body {
 
 .navigation {
   display: flex;
-  margin: 0 80px;
+  margin: 0 70px;
 }
 
 .navigation-logo {
@@ -185,7 +185,7 @@ body {
 
 .about p {
   max-width: 651px;
-  margin: 25px auto 69px;
+  margin: 25px auto 90px;
 }
 
 /* Advantages */
@@ -218,6 +218,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 112px;
+  justify-content: center;
 }
 
 .advantages-item:first-child {
@@ -269,7 +270,7 @@ body {
 }
 
 .slogan h2 {
-  max-width: 620px;
+  max-width: 505px;
   margin: 64px auto 0;
   font-size: 30px;
   line-height: 36px;
@@ -279,7 +280,7 @@ body {
 
 .slogan p {
   max-width: 651px;
-  margin: 25px auto 69px;
+  margin: 20px auto 65px;
 }
 
 /* Services */
@@ -295,7 +296,7 @@ body {
 .services-item {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  justify-content: center;
   min-width: 400px;
   min-height: 385px;
   font-size: 18px;
@@ -304,7 +305,7 @@ body {
 
 .services-title {
   max-width: 175px;
-  margin: 183px auto 30px;
+  margin: 100px auto 30px;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
@@ -327,7 +328,7 @@ body {
 }
 
 .booking h2 {
-  margin: 96px auto 0;
+  margin: 95px auto 0;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -352,7 +353,7 @@ body {
   text-align: center;
   background-color: #ffffff;
   margin: 0;
-  padding: 96px;
+  padding: 70px;
 }
 .main-index .subscribe {
   color: #ffffff;

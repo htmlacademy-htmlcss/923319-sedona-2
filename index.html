@@ -99,7 +99,7 @@
             </li>
             <li class="advantages-item background-basic">
               <div class="advantages-item-text">
-                <h3 class="advantages-title">Там есть мост дьявола</h3>
+                <h3 class="advantages-title">Там есть <br>мост дьявола</h3>
                 <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
               <img class="advantages-item-img" src="images/advantages-2.jpg" width="800" height="385" alt="Мост дьявола">
@@ -140,7 +140,7 @@
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
           <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input type="text" id="subscribe-email" name="subscribe-email" placeholder="Ваш E-mail" required>
+            <input type="text" id="subscribe-email" name="subscribe-email" placeholder="Ваш e-mail" required>
             <button class="button button-blue" type="submit">Подписаться</button>
           </form>
         </section>
@@ -194,6 +194,77 @@
         </a>
       </div>
     </footer>
+
+    <div class="modal-container">
+      <div class="modal">
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+          <svg class="close-button" viewBox="0 0 15 14" aria-hidden="true" focusable="false" width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.4905 1.78288L13.1982 0.49057L7.49048 6.19826L1.78279 0.49057L0.490479 1.78288L6.19817 7.49057L0.490479 13.1983L1.78279 14.4906L7.49048 8.78288L13.1982 14.4906L14.4905 13.1983L8.78279 7.49057L14.4905 1.78288Z" />
+          </svg>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+
+          <form class="booking-form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="field-group field-group-arrival">
+              <label class="" for="arrival-date">Дата заезда:</label>
+              <input class="form-field field-arrival" type="text" id="arrival-date" name="arrival-date" placeholder="Укажите дату" value="27 апреля 2020" required>
+              <button class="calendar-button" type="button">
+              </button>
+              <p class="field-feedback invalid-feedback">Мы не можем отправить вас в прошлое.</p>
+            </div>
+            <div class="field-group field-group-departure">
+              <label class="" for="departure-date">Дата выезда:</label>
+              <input class="form-field field-departure" type="text" id="departure-date" name="departure-date" placeholder="Укажите дату" value="1 сентября 2021" required>
+              <button class="calendar-button" type="button">
+              </button>
+              <p class="field-feedback success-feedback">На эти даты есть свободные номера. Пока есть.</p>
+            </div>
+            <div class="field-group field-group-adult">
+              <label class="" for="adult-number">Взрослые:</label>
+              <button class="counter-button button-minus" type="button">
+                <svg class="minus" width="14" height="2" viewBox="0 0 14 2" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0L0 2L14 2V0L0 0Z" />
+                </svg>
+              </button>
+              <input class="form-field field-number" type="number" id="adult-number" name="adult-number" value="2" required>
+              <button class="counter-button button-plus" type="button">
+                <svg class="plus" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
+                </svg>
+              </button>
+            </div>
+            <div class="field-group field-group-children">
+              <label class="" for="children-number">
+                Дети:
+                <span class="tooltip">
+                  <button class="tooltip-toggle">
+                    <span class="visually-hidden">Подробная информация</span>
+                  </button>
+                  <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст
+                    которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                </span>
+                </span>
+              </label>
+              <button class="counter-button button-minus" type="button">
+                <svg class="minus" width="14" height="2" viewBox="0 0 14 2" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0L0 2L14 2V0L0 0Z" />
+                </svg>
+              </button>
+              <input class="form-field field-number" type="number" id="children-number" name="children-number" value="2" required>
+              <button class="counter-button button-plus" type="button">
+                <svg class="plus" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
+                </svg>
+              </button>
+            </div>
+            <a class="button search-result button-blue" href="#">Найти</a>
+          </form>
+
+        </section>
+      </div>
+    </div>
 
   </body>
 

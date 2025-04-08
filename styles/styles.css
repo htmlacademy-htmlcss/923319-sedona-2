@@ -673,16 +673,16 @@ body {
   fill: #83b3d3;
 }
 
-.social-icon:hover {
+.footer-social-link:hover .social-icon {
   fill: #68a2ca;
 }
 
-.social-icon:focus {
+.footer-social-link:focus .social-icon {
   fill: #68a2ca;
   outline: none;
 }
 
-.social-icon:active {
+.footer-social-link:active .social-icon {
   fill: rgba(104, 162, 202, 0.3);
 }
 
@@ -891,7 +891,6 @@ color: #756157;
 
 .control:hover {
   opacity: 0.6;
-  transition: 0.3s;
 }
 
 .control:focus-within .control-mark {
@@ -1181,7 +1180,8 @@ color: #756157;
   display: grid;
   padding: 20px;
   grid-template-columns: 140px 140px;
-  gap: 20px;
+  row-gap: 16px;
+  column-gap: 20px;
   box-sizing: border-box;
   border: 1px solid #e5e5e5;
   border-radius: 4px;
@@ -1237,12 +1237,29 @@ color: #756157;
   padding: 8px 20px;
 }
 
+.product-stardom {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 6px;
+}
+
+.star {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-top: 10px;
+  background-image: url("../images/icon-star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .rating {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
   margin: 0;
-  padding: 11px 22px 0;
+  padding: 9px 22px 8px;
   background-color: #f2f2f2;
   border-radius: 4px;
 }
@@ -1503,7 +1520,9 @@ color: #FF5757;
 }
 
 .counter-button:active {
-
+  fill: #756157;
+  fill-opacity: 0.3;
+  outline: none;
 }
 
 .button-minus {

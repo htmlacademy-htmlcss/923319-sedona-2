@@ -1447,6 +1447,10 @@ color: #756157;
   text-transform: capitalize;
 }
 
+.field-group-children label {
+  padding: 12px 4px;
+}
+
 .field-feedback {
   margin: 0;
   position: absolute;
@@ -1584,6 +1588,7 @@ color: #FF5757;
 
 .tooltip {
   position: relative;
+  display: inline;
 }
 
 .tooltip-toggle {

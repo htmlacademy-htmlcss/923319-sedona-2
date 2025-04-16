@@ -134,7 +134,7 @@
             Заинтересовались?
           </h2>
           <p class="booking-description">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a class="button button-brown" href="#">Поиск гостиницы в Седоне</a>
+          <a class="button button-brown" href="#" onclick='toggleVisibility()'>Поиск гостиницы в Седоне</a>
         </section>
         <section class="subscribe">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
@@ -174,7 +174,9 @@
             </a>
           </li>
         </ul>
-        <a class="main-footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <div class="main-footer-contacts">
+          <a class="main-footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        </div>
         <a class="main-footer-link" href="">
           <svg class="academy-icon" aria-hidden="true" focusable="false" width="115" height="34" viewBox="0 0 115 34" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Логотип HTML Academy">
             <path d="M0 13.7232V16.3232H2.5V13.7232H0Z" />
@@ -261,5 +263,12 @@
       </div>
     </div>
   </body>
+
+  <script>
+    function toggleVisibility() {
+      let element = document.querySelector(".modal-container");
+      element.style.display = 'flex';
+    }
+  </script>
 
 </html>

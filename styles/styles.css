@@ -1078,6 +1078,7 @@ color: #756157;
 
 .range-scale {
   position: relative;
+  width: 287px;
   height: 4px;
   margin-top: 42px;
   background-color: rgba(255, 255, 255, 0.3);
@@ -1121,7 +1122,7 @@ color: #756157;
 
 .toggle-max {
   top: -8px;
-  left: 208px;
+  left: 207px;
 }
 
 

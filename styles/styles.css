@@ -16,11 +16,6 @@
 
 /* Pages */
 
-/* *,
-*::before,
-*::after {
-  box-sizing: border-box;
-} */
 
 html {
   height: 100%;
@@ -397,6 +392,7 @@ body {
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -404,9 +400,9 @@ body {
 
 .advantages-item {
   display: flex;
-  flex-grow: 1;
   font-size: 18px;
   line-height: 21px;
+  width: 400px;
   min-height: 345px;
   margin: 0;
   padding: 0;
@@ -1475,7 +1471,7 @@ color: #756157;
 }
 
 .modal-close-button:active .close-button {
-  opacity: 0.3;
+  fill: rgba(0, 0, 0, 0.3);
 }
 
 .modal-title {

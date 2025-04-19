@@ -918,6 +918,7 @@ color: #756157;
 
 .catalog-filter-title {
   margin-bottom: 32px;
+  padding-inline: 0;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -926,7 +927,7 @@ color: #756157;
 }
 
 .catalog-filter-group {
-  margin: 0 67px 0 0;
+  margin: 0 70px 0 0;
   padding: 0;
   min-width: 150px;
   border: none;
@@ -1002,7 +1003,7 @@ color: #756157;
 
 .filter-price {
   width: 290px;
-  padding-left: 73px;
+  padding-left: 71px;
 }
 
 .range-slider-input {
@@ -1011,7 +1012,7 @@ color: #756157;
 }
 
 .range-slider-input .control {
-  min-width: 133px;
+  min-width: 132px;
   padding: 5px 5px 5px 5px;
   font-size: 18px;
   line-height: 24px;
@@ -1120,7 +1121,7 @@ color: #756157;
   flex-direction: column;
   gap: 32px;
   padding-top: 56px;
-  padding-left: 74px;
+  padding-left: 68px;
 }
 
 .catalog-filter-buttons .button {

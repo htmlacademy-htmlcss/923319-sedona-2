@@ -12,7 +12,7 @@
   <body>
     <header class="main-header">
       <nav class="navigation">
-        <a class="navigation-logo" href="">
+        <a class="navigation-logo" href="#">
           <img class="navigation-link-logo" src="images/logo.svg" width="140" height="70" alt="Логотип города Седона">
         </a>
         <ul class="navigation-list">
@@ -97,7 +97,7 @@
               <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
 
             </li>
-            <li class="advantages-item background-basic">
+            <li class="advantages-item background-basic background-basic-reverse">
               <div class="advantages-item-text">
                 <h3 class="advantages-title">Там есть <br>мост дьявола</h3>
                 <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
@@ -134,11 +134,11 @@
             Заинтересовались?
           </h2>
           <p class="booking-description">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a class="button button-brown" href="#" onclick='toggleVisibility()'>Поиск гостиницы в Седоне</a>
+          <button class="button button-brown" type="button">Поиск гостиницы в Седоне</button>
         </section>
         <section class="subscribe">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-          <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <p class="main-subscribe-p">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <input type="text" id="subscribe-email" name="subscribe-email" placeholder="Ваш e-mail" required>
             <button class="button button-blue" type="submit">Подписаться</button>
@@ -177,7 +177,7 @@
         <div class="main-footer-contacts">
           <a class="main-footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
         </div>
-        <a class="main-footer-link" href="">
+        <a class="main-footer-link" href="https://htmlacademy.ru/intensive/htmlcss">
           <svg class="academy-icon" aria-hidden="true" focusable="false" width="115" height="34" viewBox="0 0 115 34" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Логотип HTML Academy">
             <path d="M0 13.7232V16.3232H2.5V13.7232H0Z" />
             <path d="M11.6 5.32324C10 5.32324 8.8 6.02324 8 7.02324H7.9V0.823242H5.9V16.3232H7.9V11.0232C7.9 8.92324 9.2 7.42324 11.2 7.42324C13 7.42324 14.1 8.82324 14.1 10.6232V16.3232H16.1V10.2232C16.2 7.22324 14.3 5.32324 11.6 5.32324Z" />
@@ -239,9 +239,9 @@
                 Дети:
               </label>
               <div class="tooltip">
-                <div class="tooltip-toggle">
+                <button class="tooltip-toggle" type="button">
                   <span class="visually-hidden">Подробная информация</span>
-                </div>
+                </button>
                 <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст
                   которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
               </div>
